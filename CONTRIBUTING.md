@@ -1,0 +1,1 @@
+I haven't decided if this project will be open to Hacktoberfest 2022.
