@@ -1,2 +1,6 @@
 body { background-color: black }
 h1, h2, h3, p, li { color: white }
+a:link { color: blue }
+a:visited { color: magenta }
+a:hover { color: aqua }
+a:active { color: cyan }
