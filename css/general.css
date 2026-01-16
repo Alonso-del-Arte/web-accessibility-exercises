@@ -1,2 +1,20 @@
 a:link { text-decoration: none }
 a:hover { text-decoration: underline; font-weight: bold }
+
+@media only screen and (max-width: 360px) {
+    img { width: 300px }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 1080px) {
+    h1, h2, h3, p, li, blockquote { margin-left: 80px; margin-right: 80px; max-width: 560px }
+    form { margin-left: 100px; margin-right: 100px; max-width: 640px }
+    div.stackedImage1, div.stackedImage2 { float: left }
+}
+
+@media only print {
+    h1, h2, h3 { text-shadow: none; box-shadow: none; animation: none; background: initial }
+    li a[href^="http"]:after { content: " <" attr(href) ">"; font-family: "Courier New", monospace}
+}
